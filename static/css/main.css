@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.theme-button {
+    @apply w-[30px] mx-[2em];
+}
 body {
     @apply bg-slate-800 text-white;
 }
