@@ -37,8 +37,8 @@
       },
       methods: {
           changeTheme(value) {
-              this.$colorMode.value = this.theme
               this.theme = value === "light" ? "dark" : "light"
+              this.$colorMode.value = this.theme
           }
       }
   }
